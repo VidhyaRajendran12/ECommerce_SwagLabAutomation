@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.tests.ErrorValidationTest">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="LaunchApp"/>
+          <include name="ProdErrorValidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.ErrorValidationTest -->
+      <class name="com.tests.StandaloneTest">
+        <methods>
+          <include name="EndtoEndFlow" invocation-numbers="0"/>
+          <include name="LaunchApp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tests.StandaloneTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

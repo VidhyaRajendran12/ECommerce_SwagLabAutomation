@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-02T04:50:08 IST" name="Default suite" finished-at="2024-06-02T04:50:11 IST" duration-ms="3265">
+    <groups>
+    </groups>
+    <test started-at="2024-06-02T04:50:08 IST" name="Default test" finished-at="2024-06-02T04:50:11 IST" duration-ms="3265">
+      <class name="com.testScenarios.DeleteMultipleItems">
+        <test-method is-config="true" signature="LaunchApp()[pri:0, instance:com.testScenarios.DeleteMultipleItems@34a1d21f]" started-at="2024-06-02T04:50:08 IST" name="LaunchApp" finished-at="2024-06-02T04:50:10 IST" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method signature="AddMultipleItems()[pri:0, instance:com.testScenarios.DeleteMultipleItems@34a1d21f]" started-at="2024-06-02T04:50:10 IST" name="AddMultipleItems" finished-at="2024-06-02T04:50:11 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMultipleItems -->
+      </class> <!-- com.testScenarios.DeleteMultipleItems -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+[
+
+{
+
+"email" : "standard_user",
+"password" : "secret_sauce"
+
+}
+,
+{
+
+"email" : "visual_user",
+"password" : "secret_sauce"
+
+}
+
+]
